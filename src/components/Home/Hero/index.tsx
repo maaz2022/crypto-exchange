@@ -36,9 +36,9 @@ const Banner = () => {
               <Image 
               src={'/images/banner/banner.png'}
               alt="nothing" 
-              width={1012} 
+              width={1011} 
               height={760} 
-              className='w-full h-full object-cover'
+       
               />
             </div>
           </div>
