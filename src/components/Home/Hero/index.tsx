@@ -28,12 +28,18 @@ const Banner = () => {
               <div className='flex align-middle justify-center md:justify-start'>
                 <button className='text-xl font-semibold text-white py-4 px-6 lg:px-12 bg-gradient-to-r from-primary to-secondary hover:from-secondary hover:to-primary rounded-xl mr-6'>Get Started</button>
                 <button onClick={openModal} className='bg-transparent flex justify-center items-center text-white'>
-                  <Image src={'/images/Banner/playbutton.svg'} alt="button-image" className='mr-3' width={47} height={47} />How it work
+                  <Image src='/images/Banner/playbutton.svg' alt="button-image" className='mr-3' width={47} height={47} />How it work
                 </button>
               </div>
             </div>
             <div className='col-span-5 lg:-m-48'>
-              <Image src="/images/Banner/banner.png" alt="nothing" width={1012} height={760} />
+              <Image 
+              src="/images/Banner/banner.png" 
+              alt="nothing" 
+              width={1012} 
+              height={760} 
+              className='w-full h-full object-cover'
+              />
             </div>
           </div>
         </div>
